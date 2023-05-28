@@ -1,0 +1,77 @@
+permalink: /:year/:i_month/:i_day/:title.html
+exclude: [Rakefile, Gemfile, Gemfile.lock, README.markdown, Capfile, bin, s3_website.yml, tmp]
+paginate: 5
+paginate_path: /page:num/
+plugins:
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-feed
+  - jemoji
+theme: jekyll-theme-so-simple
+masthead_title: Home
+title: "Amey Jadiye"
+logo: https://avatars.githubusercontent.com/u/2662046
+description: ""
+masthead_bio: "I'm an enthusiastic Software Engineer. With a deep love for Java, Cloud, AI and Electronics :heart:. <br> I strive to solve complex real-life problems through my creative, problem-solving and innovative approach, I aim to create best and quality software and inspire others to do the same."
+twitter:
+  username: ameyjadiye
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+search: true
+
+author:
+  name: "Amey Jadiye"
+  location: "Pune, India"
+  picture: https://avatars.githubusercontent.com/u/2662046
+  bio: "Executive Leadership Coach to Founders and CTOs"
+  twitter: ameyjadiye
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ameyjadiye"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ameyjadiye/"
+    - label: "Contact Me"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "/contact/"
+
+footer_links:
+  - title: "Twitter"
+    icon: "fab fa-fw fa-twitter-square"
+    url: "https://twitter.com/ameyjadiye"
+  - title: "Contact Me"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "/contact/"
+  - title: "Legal"
+    url: "/legal/"
+    icon: "fas fa-fw fa-balance-scale"
+
+url: "https://amey.jadiye.in/"
+feed:
+  path: feed.xml
+
+defaults:
+  # _posts
+  defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: false
+
+locale: en-US
+
+copyright: 2023 Amey Jadiye ([Legal](/legal/))
+
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"

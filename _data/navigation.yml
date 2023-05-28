@@ -1,0 +1,10 @@
+- title: "Home"
+  url: "/"
+- title: "About Me"
+  url: "/about.html"
+- title: "Archives"
+  url: "/archives.html"
+- title: Subscribe
+  url: /subscribe/
+- title: Search
+  url: /search/

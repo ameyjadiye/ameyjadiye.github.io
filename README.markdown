@@ -1,0 +1,1 @@
+This is my blog running on [amey.jadiye.in](http://amey.jadiye.in). All content in images and _posts is copyright Amey Jadiye.
