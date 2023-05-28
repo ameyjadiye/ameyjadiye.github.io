@@ -9,7 +9,7 @@ plugins:
   - jekyll-archives
   - jekyll-feed
   - jemoji
-theme: jekyll-theme-so-simple
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 masthead_title: Home
 title: "Amey Jadiye"
 logo: https://avatars.githubusercontent.com/u/2662046
