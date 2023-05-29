@@ -9,12 +9,12 @@ With lot of free time i did a small project based on WhatsApp group chat sentime
 
 <table border="0" align="center">
 <tr>
-<td><img src="http://codeinventory.com/images/WA1.png" height="400" width="400"/></td>
-<td><img src="http://codeinventory.com/images/WA2.png" height="400" width="400"/></td>
+<td><img src="/images/WA1.png" height="400" width="400"/></td>
+<td><img src="/images/WA2.png" height="400" width="400"/></td>
 </tr>
 <tr>
-<td><img src="http://codeinventory.com/images/SA1.png" height="400" width="400"/></td>
-<td><img src="http://codeinventory.com/images/SA2.png" height="400" width="400"/></td>
+<td><img src="/images/SA1.png" height="400" width="400"/></td>
+<td><img src="/images/SA2.png" height="400" width="400"/></td>
 </tr>
 </table>
 
