@@ -16,7 +16,7 @@ Throughout [my career](https://github.com/ameyjadiye/ameyjadiye-cv/raw/master/re
 
 Beyond my professional life, I like playing with my 3 year old son Prakhar! I also truly enjoy spending time on personal software and electronics projects which include AI, embedded circuits, home automation and IoT.
 
-My goal with this website is to share my experiences with life and some work I do in silo. Feel free to explore my blog and subscribe to a newsletter or contact you. If you have any questions or would like to connect, please don't hesitate to mail me on <a href="mailto:amey@jadiye.in"> amey@jadiye.in </a> – [Public key](http://amey.jadiye.in/files/ameyjadiye_gpg_key.asc){:target="_blank"} (1403E215).
+My goal with this website is to share my experiences with life and some work I do in silo. Feel free to explore my blog and subscribe to a newsletter or contact me. If you have any questions or would like to connect, please don't hesitate to mail me on <a href="mailto:amey@jadiye.in"> amey@jadiye.in </a> – [Public key](http://amey.jadiye.in/files/ameyjadiye_gpg_key.asc){:target="_blank"} (1403E215).
 
 Thank you for taking the time to learn more about me. I look forward to connecting with you!
 
