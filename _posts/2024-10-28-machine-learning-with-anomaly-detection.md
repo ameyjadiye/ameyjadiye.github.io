@@ -16,7 +16,7 @@ To get started with anomaly detection in Java, we’ll use the following tools a
    - **DeepLearning4J (DL4J)**: A deep learning library for Java that supports neural networks and deep learning models.
    - **Maven**: For dependency management.
 
-   #### **Dependencies (Maven)**
+   **Dependencies (Maven)**
    Add the following dependencies to your `pom.xml` file:
 
    ```xml
