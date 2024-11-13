@@ -5,7 +5,7 @@ tags: java machine-learning ml ai
 ---
 
 <div style="text-align:center;">
-<img align="center" src="{{ site.url }}/images/slap.jpg" style="height: 40%;width: 40%;" />
+<img align="center" src="https://miro.medium.com/max/393/1*cUsO0wHBuS2ynQ9-0kQZvQ.jpeg"/>
 </div>
 
 Imagine your house has a really nosy neighbor. This neighbor doesn’t just watch for odd activity; they know everything about your day-to-day. Every morning, they see you sip your coffee at 7:30 a.m., wave as you leave for work at 8:00, and they know that when you start the car, it makes that slightly embarrassing squeak. Now, if one day you were to leave at 2 a.m. wearing a dinosaur costume, they’d probably take notice (and maybe some photos for good measure). This is the essence of **anomaly detection**: spotting the dinosaur-costume-level weirdness in a sea of normal, squeaky-car routines. 
