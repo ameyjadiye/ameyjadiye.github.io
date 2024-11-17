@@ -4,6 +4,10 @@ title: "SSH Hardening: Securing Your Remote Connections"
 tags: linux security
 ---
 
+<div style="text-align:center;">
+<img align="center" src="https://static.wixstatic.com/media/f98cdb_91c397efa60d4845853dda9699b48cc0~mv2.png"/>
+</div>
+
 In the previous post, we covered the basics of SSH. In this post, we will go a bit deeper into SSH. 
 As we all know Secure Shell (SSH) is a widely used protocol for securely accessing remote servers. However, the default SSH configuration is not always secure enough for sensitive environments. Hardening your SSH setup is essential to protect your servers from unauthorized access and attacks. This guide will walk you through various techniques and best practices for SSH hardening, complete with examples.
 
