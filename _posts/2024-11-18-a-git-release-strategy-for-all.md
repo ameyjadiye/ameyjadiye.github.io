@@ -138,4 +138,4 @@ Moving from a single **master branch** to a structured strategy with **main**, *
 
 And remember: when in doubt, just `git reset --hard`… kidding, don’t do that. Unless you enjoy the thrill of losing work!
 
-Got questions? Drop them in the comments below. Until then, happy branching! 🌳
+Got questions? Drop me an email. Until then, happy branching! 🌳
