@@ -7,14 +7,14 @@ title: About Amey
 
 Hello and welcome! My name is **Amey Jadiye**, and I'm thrilled to have you here.
 
-I am an Associate Director at [UBS](https://en.wikipedia.org/wiki/UBS){:target="_blank"} with a passion for Software Engineering and Electronics :heart: . With 12 years of experience in Technology Industry, I have honed my skills in Java, Cloud, Multithreading and Low Latency stuff.
+I am an Associate Director at [UBS](https://en.wikipedia.org/wiki/UBS){:target="_blank"} with a passion for Software Engineering and Electronics :heart: . With 14 years of experience in Technology Industry, I have honed my skills in Java, Cloud, Multithreading and Low Latency stuff.
 
 
 What truly drives me is the love and attraction towards the machines. its fascinating to see how we write the code or create small electronics circuit or jot down few mechanical components and collectively they work to acomplish trivial to extramly complex task!
 
 Throughout [my career](https://github.com/ameyjadiye/ameyjadiye-cv/raw/master/resume.pdf){:target="_blank"}, I have had the opportunity to work with startups to very big organizations. These experiences have not only helped me develop a strong foundation in the Software Industry, but also taught me the importance of Collbration, Communication, Networking and Innovations.
 
-Beyond my professional life, I like playing with my 3 year old son Prakhar! I also truly enjoy spending time on personal software and electronics projects which include AI, embedded circuits, home automation and IoT.
+Beyond my professional life, I like playing with my 4 year old son Prakhar! I also truly enjoy spending time on personal software and electronics projects which include AI, embedded circuits, home automation and IoT.
 
 My goal with this website is to share my experiences with life and some work I do in silo. Feel free to explore my blog and subscribe to a newsletter or contact me. If you have any questions or would like to connect, please don't hesitate to mail me on <a href="mailto:amey@jadiye.in"> amey@jadiye.in </a> – [Public key](http://amey.jadiye.in/files/ameyjadiye_gpg_key.asc){:target="_blank"} (1403E215).
 
