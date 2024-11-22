@@ -6,7 +6,7 @@ tags: security
 
 
 <div style="text-align:center;">
-<img align="center" src="https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/1200x800/filters:focal(1046x813:1047x814):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/14155906/akrales_190220_3226_0003.jpg"/>
+<img align="center" src="https://files.mastodon.social/media_attachments/files/109/892/925/736/209/838/original/3c95770db581dd5e.jpg"/>
 </div>
 
 <br />
