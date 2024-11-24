@@ -19,7 +19,6 @@ With lot of free time i did a small project based on WhatsApp group chat sentime
 </table>
 
 
-Full project can be found here  [https://github.com/ameyjadiye/whatsapp-analyst](https://github.com/ameyjadiye/whatsapp-analyst)
 {% highlight R %}
 #!/usr/bin/r
 

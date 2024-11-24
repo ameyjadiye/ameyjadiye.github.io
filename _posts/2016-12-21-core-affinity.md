@@ -41,6 +41,5 @@ done
 
 ```
 
-source is here https://github.com/ameyjadiye/core-affinity , you can always provide improvements by pull req.
 
 Happy Coding .. :)
