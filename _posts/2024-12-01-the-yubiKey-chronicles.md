@@ -4,14 +4,12 @@ title: "The YubiKey Chronicles: A Hardware Hero in a Digital World"
 tags: security
 ---
 
+How I became a cybersecurity wizard with a YubiKey ? You know those moments when you realize your digital life is hanging by a thread? For me, it was juggling dozens of remote VMs, a GPG key that felt more exposed than an open Wi-Fi network, and online accounts (Google, GitHub, and Cloudflare) that deserved better than "Password123". That’s when I decided it was time to level up and get myself a YubiKey—the GOAT of hardware security keys.
 
 <div style="text-align:center;">
-<img align="center" src="https://files.mastodon.social/media_attachments/files/109/892/925/736/209/838/original/3c95770db581dd5e.jpg"/>
+<img align="center" src="/images/2fa.jpg"/>
 </div>
-
 <br />
-
-How I Became a Cybersecurity Wizard with a YubiKey ? You know those moments when you realize your digital life is hanging by a thread? For me, it was juggling dozens of remote VMs, a GPG key that felt more exposed than an open Wi-Fi network, and online accounts (Google, GitHub, and Cloudflare) that deserved better than "Password123". That’s when I decided it was time to level up and get myself a YubiKey—the GOAT of hardware security keys.
 
 Where did I get this magical talisman, you ask? From an India-based reseller, [Icons](https://icons.net.in/), for ₹6,500. Sure, it’s not pocket change, but let’s be honest: is there a price too high for peace of mind and an ironclad defense against cyber villains? I think not.
 
