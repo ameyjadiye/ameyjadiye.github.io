@@ -6,7 +6,7 @@ tags:
 
 
 <div style="text-align:center;">
-<img align="center" src="https://img.devrant.com/devrant/rant/r_1951381_wF85X.jpg"/>
+<img align="center" src="https://img.devrant.com/devrant/rant/r_1951381_wF85X.jpg"  width="75%" height="75%"/>
 </div>
 <br />
 
