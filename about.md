@@ -12,7 +12,7 @@ I am an Associate Director at [UBS](https://en.wikipedia.org/wiki/UBS){:target="
 
 What truly drives me is the love and attraction towards the machines. its fascinating to see how we write the code or create small electronics circuit or jot down few mechanical components and collectively they work to acomplish trivial to extramly complex task!
 
-Throughout [my career](https://github.com/ameyjadiye/ameyjadiye-cv/raw/master/resume.pdf){:target="_blank"}, I have had the opportunity to work with startups to very big organizations. These experiences have not only helped me develop a strong foundation in the Software Industry, but also taught me the importance of Collbration, Communication, Networking and Innovations.
+Throughout [My career](https://in.linkedin.com/in/ameyjadiye){:target="_blank"}, I have had the opportunity to work with startups to very big organizations. These experiences have not only helped me develop a strong foundation in the Software Industry, but also taught me the importance of Collbration, Communication, Networking and Innovations.
 
 Beyond my professional life, I like playing with my 4 year old son Prakhar! I also truly enjoy spending time on personal software and electronics projects which include AI, embedded circuits, home automation and IoT.
 
