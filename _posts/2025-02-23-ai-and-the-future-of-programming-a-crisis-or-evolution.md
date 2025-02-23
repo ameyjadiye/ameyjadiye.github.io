@@ -1,11 +1,15 @@
----
+![image](https://github.com/user-attachments/assets/677e5ae5-4b1e-47e6-8981-e1918dc3c0d5)---
 layout: post
 title: "The AI and the Future of Programming: A Crisis or Evolution?"
 tags: AI 
 ---
 
+<div style="text-align:center;">
+<img align="center" src="/images/ai-boom.jpg"/>
+</div>
+<br />
 
-With the rapid advancements in artificial intelligence, the world is witnessing an unprecedented AI boom. Organizations like OpenAI _(ChatGPT)_, Google _(Gemini), Meta _(MetaAI)_, and DeepSeek are fiercely competing to push the boundaries of AI innovation. My current organization, <a href="https://en.wikipedia.org/wiki/UBS" target="_blank" rel="noopener noreferrer">UBS Group AG</a>, is no exception—fully embracing AI to integrate it across various projects and use cases. The goal? To enhance efficiency, optimize costs, and drive greater revenue.  
+With the rapid advancements in artificial intelligence, the world is witnessing an unprecedented AI boom. Organizations like OpenAI _(ChatGPT)_, Google _(Gemini)_, Meta_(MetaAI)_ , and DeepSeek are fiercely competing to push the boundaries of AI innovation. My current organization, <a href="https://en.wikipedia.org/wiki/UBS" target="_blank" rel="noopener noreferrer">UBS Group AG</a>, is no exception—fully embracing AI to integrate it across various projects and use cases. The goal? To enhance efficiency, optimize costs, and drive greater revenue.  
 
 As part of this transformative journey, I have taken on the role of **AI Champion** for my crew, spearheading efforts to strategically incorporate AI into the digital assets I am responsible for. This role is not just about keeping up with the AI revolution but actively shaping how our organization leverages AI to its fullest potential.  
 
