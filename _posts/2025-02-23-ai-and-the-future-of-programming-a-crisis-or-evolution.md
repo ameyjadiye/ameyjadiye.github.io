@@ -4,11 +4,6 @@ title: "The AI and the Future of Programming: A Crisis or Evolution?"
 tags: AI 
 ---
 
-<div style="text-align:center;">
-<img align="center" src="/images/ai-boom.jpg"/>
-</div>
-<br />
-
 With the rapid advancements in artificial intelligence, the world is witnessing an unprecedented AI boom. Organizations like OpenAI _(ChatGPT)_, Google _(Gemini)_, Meta_(MetaAI)_ , and DeepSeek are fiercely competing to push the boundaries of AI innovation. My current organization, <a href="https://en.wikipedia.org/wiki/UBS" target="_blank" rel="noopener noreferrer">UBS Group AG</a>, is no exception—fully embracing AI to integrate it across various projects and use cases. The goal? To enhance efficiency, optimize costs, and drive greater revenue.  
 
 As part of this transformative journey, I have taken on the role of **AI Champion** for my crew, spearheading efforts to strategically incorporate AI into the digital assets I am responsible for. This role is not just about keeping up with the AI revolution but actively shaping how our organization leverages AI to its fullest potential.  
@@ -60,4 +55,10 @@ To thrive in the AI-powered future of programming, developers must adopt a minds
 Embracing AI without becoming dependent on it is the key. Developers should use AI to enhance productivity but must continue honing their critical thinking, debugging, and design skills. Open-source contributions, side projects, and mentorship will remain valuable ways to stay engaged with coding beyond AI-generated solutions.
 
 In the end, AI is not replacing programmers; it is redefining what it means to be a programmer. Those who adapt, learn, and innovate will continue to thrive, shaping the next generation of technology in an AI-driven world. The future of programming isn’t about writing less code—it’s about writing smarter code and making more intelligent decisions. AI will change how software is built, but the human element of creativity, strategy, and problem-solving will always be irreplaceable.
+
+<br />
+<div style="text-align:center;">
+<img align="center" src="/images/ai-boom.JPG"/>
+</div>
+
 
