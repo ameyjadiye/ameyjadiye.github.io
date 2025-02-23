@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/677e5ae5-4b1e-47e6-8981-e1918dc3c0d5)---
+---
 layout: post
 title: "The AI and the Future of Programming: A Crisis or Evolution?"
 tags: AI 
