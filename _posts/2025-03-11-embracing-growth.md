@@ -52,19 +52,19 @@ As I move forward in my career, I carry with me the lessons learned and the conf
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="/images/jump/1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <div class="text">My Team</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="/images/jump/2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+    <div class="text">Memorable pic with Ralph</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="/images/jump/3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <div class="text">Pic with Jamling</div>
   </div>
 
   <!-- Next and previous buttons -->
