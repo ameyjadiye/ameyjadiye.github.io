@@ -5,7 +5,7 @@ tags: AI, coding
 ---
 
 <div style="text-align:center;">
-<img align="center" src="https://aitificial.blog/wp-content/uploads/2024/03/ai-hallucinations.jpg" height="70%" width="70%"/>
+<img align="center" src="https://www.cnet.com/a/img/resize/8ff2c034471ff7a0633f417322b59b03499754c7/hub/2024/03/29/102d3a21-69e6-41b9-b4c2-1448578eea5a/ai-hallucinations.jpg?auto=webp&fit=crop&height=675&width=1200" height="70%" width="70%"/>
 </div>
 <br/>
 
