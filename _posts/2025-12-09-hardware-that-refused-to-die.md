@@ -4,6 +4,11 @@ title: "Hardware That Refused to Die: My 14-Year Journey With my Dell XPS L502x"
 tags: hardware,linux
 ---
 
+<div style="text-align:center;">
+<img align="center" src="/images/dell-xps.jpg" height="70%" width="70%"/>
+</div>
+<br/>
+
 There are some machines that enter your life quietly, and some that barge into it like destiny wearing a Dell logo. My **Dell XPS 15 L502x**, purchased in 2011 for a staggering sixty thousand rupees, is unquestionably the latter. It was my second computer ever—my first being a humble desktop my father had gifted me during my engineering days. That old desktop still works today, a stubborn relic of an era when hardware was built like iron playground equipment. But by 2011, life itself was in motion, sometimes too fast. I was constantly shuttling between Chennai, Pune, Shirpur, and back again, dragging my ambitions—and sometimes my luggage—across cities. A desktop simply could not keep up with my migratory lifestyle. I needed something portable, powerful, and durable. And after weeks of combing through reviews, forums, and YouTube videos, I arrived at the Dell XPS L502x: a machine that felt ahead of its time, built like a tank, and ready for anything.
 
 What I didn’t know then was just how much “anything” this laptop would go through. Over the years, this device would become far more than a tool. It would be a witness to personal transitions, a companion through career milestones, and an unsuspecting survivor of multiple natural disasters—the “natural” part being questionable because they mostly involved a clogged balcony and accidental indoor rain. Yes, this laptop has survived being completely soaked in rainwater not once, not twice, but thrice. A lesser machine would have died dramatically, sparks flying, data lost forever. But not my XPS. It simply dried itself off internally—probably insulted I even doubted it—and booted again as if to say, “Is that all you’ve got?”
