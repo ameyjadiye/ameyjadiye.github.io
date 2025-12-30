@@ -4,6 +4,11 @@ title: "From Research to Reality: Building a No-Compromise Engineering Workstati
 tags: hardware cpu gpu
 ---
 
+<div style="text-align:center;">
+<img align="center" src="/images/pc/custom-built-pc.jpg" height="70%" width="70%"/>
+</div>
+<br/>
+
 Some dreams are loud and impulsive. Others are quiet, patient, and refuse to die. For nearly five years, building a proper desktop workstation lived rent-free in my head. Not a gaming rig built for weekend bragging rights, but a thoughtfully engineered machine meant for real work — software engineering, AI/ML experimentation, containerized workloads, and the kind of multitasking that makes fans spin up just by opening a browser tab.
 
 Before this machine existed, [my old laptop carried me through everything](/2025/12/9/hardware-that-refused-to-die). Purchased back in 2011, it was considered a powerhouse in its time, with a quad-core Intel Core i7, 8 GB of RAM, a 1 TB hard drive, and an NVIDIA GeForce GT 540M with 2 GB of dedicated memory. Incredibly, even in 2025, it could still handle day-to-day tasks. That longevity is not accidental — it’s the result of solid engineering and software that respects hardware. When Windows 11 decided my laptop was no longer worthy of support, Linux stepped in quietly and gracefully. Thanks to _Linus Torvalds_, Linux Mint ran so smoothly that the laptop never felt obsolete. It retired with dignity, not failure.
@@ -38,7 +43,7 @@ In the middle of ongoing RAM and NAND shortages, I decided not to wait for a myt
 
 ### Benchmarks
 
-Once the build was complete, it was time to do what every engineer secretly enjoys — validating months of research with cold, hard numbers. I started with Cinebench R23, where the Ryzen 9 9950X immediately proved why it’s regarded as a productivity monster. The system consistently scored around 41,800+ points in the multi-core test, placing it firmly among the top-tier desktop CPUs available today, while the single-core score of ~2,275 confirmed excellent per-thread performance as well. What impressed me more than the raw numbers was the stability: clocks held steady throughout the run, thermals stayed controlled, and there was no sign of throttling — a clear indication that the VRM design of the motherboard and the 360 mm AIO cooling were doing exactly what they were chosen for.
+Once the build was complete, it was time to do what every engineer secretly enjoys — validating months of research with cold, hard numbers. started with Cinebench R23, where the Ryzen 9 9950X immediately proved why it’s regarded as a productivity monster. The system consistently scored around 41,800+ points in the multi-core test, placing it firmly among the top-tier desktop CPUs available today, while the single-core score of ~2,275 confirmed excellent per-thread performance as well. What impressed me more than the raw numbers was the stability: clocks held steady throughout the run, thermals stayed controlled, and there was no sign of throttling — a clear indication that the VRM design of the motherboard and the 360 mm AIO cooling were doing exactly what they were chosen for.
 
 On the GPU side, I ran the Unigine Superposition benchmark at 4K Optimized settings, which is a solid real-world stress test for modern GPUs. The PNY RTX 5070 Ti (Non-OC) delivered a score of 22,586, with an average FPS close to 169, peaking above 200 FPS, all while maintaining high GPU utilization and reasonable temperatures. This confirmed that even without a factory overclock, the card has ample headroom and performs exactly where it should — powerful, efficient, and predictable under load.
 
