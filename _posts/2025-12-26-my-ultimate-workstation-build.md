@@ -200,9 +200,6 @@ function showSlides() {
 </script>
 
 
-
----
-
 ## Final Configuration Summary
 
 | Component   | Model                                      |
@@ -216,6 +213,5 @@ function showSlides() {
 | Cooling     | Corsair Nautilus RS LCD 360mm              |
 | Case        | Corsair 4000D Airflow                      |
 
----
 
 This machine is not about chasing specs. It’s about respect for engineering, patience in decision-making, and building something that will remain relevant for years. After five years of waiting and months of research, this system represents a personal milestone — and yes, watching benchmarks fly still makes me smile.
