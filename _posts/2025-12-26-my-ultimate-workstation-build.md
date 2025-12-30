@@ -8,7 +8,7 @@ Some dreams are loud and impulsive. Others are quiet, patient, and refuse to die
 
 Before this machine existed, [my old laptop carried me through everything](/2025/12/9/hardware-that-refused-to-die). Purchased back in 2011, it was considered a powerhouse in its time, with a quad-core Intel Core i7, 8 GB of RAM, a 1 TB hard drive, and an NVIDIA GeForce GT 540M with 2 GB of dedicated memory. Incredibly, even in 2025, it could still handle day-to-day tasks. That longevity is not accidental — it’s the result of solid engineering and software that respects hardware. When Windows 11 decided my laptop was no longer worthy of support, Linux stepped in quietly and gracefully. Thanks to _Linus Torvalds_, Linux Mint ran so smoothly that the laptop never felt obsolete. It retired with dignity, not failure.
 
-What followed was not a purchase, but a process.
+*What followed was not a purchase, but a process...*
 
 For approx six months, I researched every component obsessively. This wasn’t casual YouTube browsing. This was datasheets, memory topology diagrams, VRM phase breakdowns, NAND endurance metrics, transient power spike analysis, thermal imaging reviews, and real-world failure stories buried deep in forums. Every part had to earn its place. The goal was simple but strict: maximum real-world performance, long-term stability, and zero gimmicks.
 
@@ -36,13 +36,170 @@ All of this hardware lives inside the Corsair 4000D Airflow, a case that priorit
 
 In the middle of ongoing RAM and NAND shortages, I decided not to wait for a mythical perfect moment. Hardware will always be one launch away from something better. On 26th December, the system was assembled and powered on. The first benchmarks confirmed what months of research had promised — stable thermals, excellent performance, and a system that feels effortless under load.
 
-### CPU Benchmarks (Ryzen 9 9950X)
+### Benchmarks
 
-In Cinebench R23, the CPU scores approximately **41,000–43,000** points in multi-core workloads and around **2,200** in single-core tests, placing it firmly among the top-tier consumer processors for productivity. Sustained all-core loads show minimal throttling thanks to adequate cooling and strong VRM delivery. Compilation workloads, container orchestration, and parallel tasks scale linearly, which is exactly what a workstation CPU should do.
+Once the build was complete, it was time to do what every engineer secretly enjoys — validating months of research with cold, hard numbers. I started with Cinebench R23, where the Ryzen 9 9950X immediately proved why it’s regarded as a productivity monster. The system consistently scored around 41,800+ points in the multi-core test, placing it firmly among the top-tier desktop CPUs available today, while the single-core score of ~2,275 confirmed excellent per-thread performance as well. What impressed me more than the raw numbers was the stability: clocks held steady throughout the run, thermals stayed controlled, and there was no sign of throttling — a clear indication that the VRM design of the motherboard and the 360 mm AIO cooling were doing exactly what they were chosen for.
 
-### GPU Benchmarks (RTX 5070 Ti)
+On the GPU side, I ran the Unigine Superposition benchmark at 4K Optimized settings, which is a solid real-world stress test for modern GPUs. The PNY RTX 5070 Ti (Non-OC) delivered a score of 22,586, with an average FPS close to 169, peaking above 200 FPS, all while maintaining high GPU utilization and reasonable temperatures. This confirmed that even without a factory overclock, the card has ample headroom and performs exactly where it should — powerful, efficient, and predictable under load.
 
-In synthetic benchmarks like 3DMark Time Spy, the RTX 5070 Ti scores in the range of **22,000–24,000**, while compute-focused workloads show excellent Tensor Core utilization. AI inference tasks benefit significantly from CUDA acceleration, and real-world ML workloads show meaningful performance gains over previous-generation cards without excessive power draw.
+Storage performance was validated using CrystalDiskMark, where the ADATA Legend 900 Pro NVMe SSD showed sequential read speeds of ~7.3 GB/s and write speeds nearing ~5.9 GB/s, fully saturating PCIe Gen4 bandwidth and translating into instant application launches, fast project loads, and zero I/O bottlenecks during heavy workflows. Random I/O numbers were equally strong, which matters far more in day-to-day use than headline sequential figures.
+
+Finally, I ran extended AIDA64 system stability tests, stressing the CPU, cache, memory, GPU, and storage simultaneously. Even after prolonged load, the system remained rock solid — temperatures stayed within expected ranges, power delivery was stable, and there were no dips or erratic behavior. This was perhaps the most satisfying result of all, because it confirmed the real goal of this build: not just peak benchmark scores, but sustained, reliable performance that can be trusted for long work sessions. In short, the benchmarks didn’t just look good — they validated every design decision that went into this machine.
+
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="/images/pc/1.png" style="width:100%">
+    <div class="text">CINEBENCH R23 (Multi Core)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="/images/pc/2.png" style="width:100%">
+    <div class="text">CINEBENCH R23 (Single Core)</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="/images/pc/3.png" style="width:100%">
+    <div class="text">Superposition</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="/images/pc/4.png" style="width:100%">
+    <div class="text">nvme (ssd) benchmarking</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="/images/pc/5.png" style="width:100%">
+    <div class="text">System Stability</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<style>
+   * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+<script>
+   let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+
 
 ---
 
@@ -50,7 +207,7 @@ In synthetic benchmarks like 3DMark Time Spy, the RTX 5070 Ti scores in the rang
 
 | Component   | Model                                      |
 | ----------- | ------------------------------------------ |
-| CPU         | AMD Ryzen 9 9950X                          |
+| CPU         | AMD Ryzen 9 9950X (16 Core, 32 Threads)    |
 | Motherboard | MSI MAG X870E Tomahawk WiFi                |
 | RAM         | 64 GB G.Skill Trident Z DDR5 6000 MHz CL36 |
 | GPU         | PNY GeForce RTX 5070 Ti (Non-OC)           |
