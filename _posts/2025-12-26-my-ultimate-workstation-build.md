@@ -6,7 +6,7 @@ tags: hardware cpu gpu
 
 
 <div style="text-align:center;">
-<img align="center" src="/images/pc/custom-built-pc.png" height="70%" width="70%"/>
+<img align="center" src="/images/pc/custom-built-pc.png" height="90%" width="90%"/>
 </div>
 <br/>
 
