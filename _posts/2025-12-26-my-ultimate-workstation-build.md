@@ -68,6 +68,19 @@ tags: hardware cpu gpu
 </div>
 <br>
 
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+<br>
+
 
 Some dreams are loud and impulsive. Others are quiet, patient, and refuse to die. For nearly five years, building a proper desktop workstation lived rent-free in my head. Not a gaming rig built for weekend bragging rights, but a thoughtfully engineered machine meant for real work — software engineering, AI/ML experimentation, containerized workloads, and the kind of multitasking that makes fans spin up just by opening a browser tab.
 
@@ -112,69 +125,71 @@ Storage performance was validated using CrystalDiskMark, where the ADATA Legend 
 Finally, I ran extended AIDA64 system stability tests, stressing the CPU, cache, memory, GPU, and storage simultaneously. Even after prolonged load, the system remained rock solid — temperatures stayed within expected ranges, power delivery was stable, and there were no dips or erratic behavior. This was perhaps the most satisfying result of all, because it confirmed the real goal of this build: not just peak benchmark scores, but sustained, reliable performance that can be trusted for long work sessions. In short, the benchmarks didn’t just look good — they validated every design decision that went into this machine.
 
 
-<div class="slideshow-container">
+<div class="slideshow-container2">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">1 / 5</div>
     <img src="/images/pc/1.png" style="width:100%">
     <div class="text">CINEBENCH R23 (Multi Core)</div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">2 / 5</div>
     <img src="/images/pc/2.png" style="width:100%">
     <div class="text">CINEBENCH R23 (Single Core)</div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">3 / 5</div>
     <img src="/images/pc/3.png" style="width:100%">
     <div class="text">Superposition</div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">4 / 5</div>
     <img src="/images/pc/4.png" style="width:100%">
     <div class="text">nvme (ssd) benchmarking</div>
   </div>
 
-  <div class="mySlides fade">
+  <div class="mySlides2 fade">
     <div class="numbertext">5 / 5</div>
     <img src="/images/pc/5.png" style="width:100%">
     <div class="text">System Stability</div>
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+  <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
 </div>
 <br>
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot2" onclick="currentSlide2(1)"></span>
+  <span class="dot2" onclick="currentSlide2(2)"></span>
+  <span class="dot2" onclick="currentSlide2(3)"></span>
+  <span class="dot2" onclick="currentSlide2(4)"></span>
+  <span class="dot2" onclick="currentSlide2(5)"></span>
 </div>
 
 <style>
    * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container, .slideshow-container2 {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides, .mySlides2 {
   display: none;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev, .next, .prev2, .next2 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -190,13 +205,13 @@ Finally, I ran extended AIDA64 system stability tests, stressing the CPU, cache,
 }
 
 /* Position the "next button" to the right */
-.next {
+.next, .next2 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover, .next:hover, .prev2:hover, .next2:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -221,7 +236,7 @@ Finally, I ran extended AIDA64 system stability tests, stressing the CPU, cache,
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot, .dot2 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -232,7 +247,7 @@ Finally, I ran extended AIDA64 system stability tests, stressing the CPU, cache,
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .dot:hover, .dot2:hover {
   background-color: #717171;
 }
 
@@ -260,7 +275,72 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+function plusSlides(n) {
+  showSlidesManual(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlidesManual(slideIndex = n);
+}
+
+function showSlidesManual(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<script>
+   let slideIndex2 = 0;
+showSlides2();
+
+function showSlides2() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides.length) {slideIndex2 = 1}
+  slides[slideIndex2-1].style.display = "block";
+  setTimeout(showSlides2, 3000); // Change image every 3 seconds
+}
+
+function plusSlides2(n) {
+  showSlidesManual2(slideIndex2 += n);
+}
+
+function currentSlide2(n) {
+  showSlidesManual2(slideIndex2 = n);
+}
+
+function showSlidesManual2(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  let dots = document.getElementsByClassName("dot2");
+  if (n > slides.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex2-1].style.display = "block";
+  dots[slideIndex2-1].className += " active";
 }
 </script>
 
