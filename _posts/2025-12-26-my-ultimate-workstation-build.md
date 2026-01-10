@@ -4,12 +4,12 @@ title: "From Research to Reality: Building a No-Compromise Engineering Workstati
 tags: hardware cpu gpu
 ---
 
-<!--
+
 <div style="text-align:center;">
-<img align="center" src="/images/pc/custom-built-pc.jpg" height="70%" width="70%"/>
+<img align="center" src="/images/pc/custom-built-pc.png" height="70%" width="70%"/>
 </div>
 <br/>
--->
+
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
