@@ -4,10 +4,70 @@ title: "From Research to Reality: Building a No-Compromise Engineering Workstati
 tags: hardware cpu gpu
 ---
 
+<!--
 <div style="text-align:center;">
 <img align="center" src="/images/pc/custom-built-pc.jpg" height="70%" width="70%"/>
 </div>
 <br/>
+-->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="/images/pc/photoshoot/1.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="/images/pc/photoshoot/2.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="/images/pc//photoshoot/3.jpeg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 8</div>
+    <img src="/images/pc/photoshoot/4.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 8</div>
+    <img src="/images/pc/photoshoot/5.jpeg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 8</div>
+    <img src="/images/pc/photoshoot/6.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 8</div>
+    <img src="/images/pc//photoshoot/7.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 8</div>
+    <img src="/images/pc/photoshoot/8.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
 
 Some dreams are loud and impulsive. Others are quiet, patient, and refuse to die. For nearly five years, building a proper desktop workstation lived rent-free in my head. Not a gaming rig built for weekend bragging rights, but a thoughtfully engineered machine meant for real work — software engineering, AI/ML experimentation, containerized workloads, and the kind of multitasking that makes fans spin up just by opening a browser tab.
 
