@@ -15,50 +15,50 @@ tags: hardware cpu gpu
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 8</div>
-    <img src="/images/pc/photoshoot/1.png" style="width:100%">
+    <img src="/images/pc/photoshoot/1.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 8</div>
-    <img src="/images/pc/photoshoot/2.png" style="width:100%">
+    <img src="/images/pc/photoshoot/2.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 8</div>
-    <img src="/images/pc//photoshoot/3.jpeg" style="width:100%">
+    <img src="/images/pc//photoshoot/3.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">4 / 8</div>
-    <img src="/images/pc/photoshoot/4.png" style="width:100%">
+    <img src="/images/pc/photoshoot/4.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">5 / 8</div>
-    <img src="/images/pc/photoshoot/5.jpeg" style="width:100%">
+    <img src="/images/pc/photoshoot/5.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
 
   <div class="mySlides fade">
     <div class="numbertext">6 / 8</div>
-    <img src="/images/pc/photoshoot/6.png" style="width:100%">
+    <img src="/images/pc/photoshoot/6.jpg" style="width:100%">
     <div class="text"></div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">7 / 8</div>
-    <img src="/images/pc//photoshoot/7.png" style="width:100%">
+    <img src="/images/pc//photoshoot/7.jpg" style="width:100%">
     <div class="text"></div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">8 / 8</div>
-    <img src="/images/pc/photoshoot/8.png" style="width:100%">
+    <img src="/images/pc/photoshoot/8.jpg" style="width:100%">
     <div class="text"></div>
   </div>
 
