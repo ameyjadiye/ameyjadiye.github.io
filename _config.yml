@@ -22,6 +22,8 @@ category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
 search: true
 future: true
+read_time: true
+words_per_minute: 200
 author:
   name: "Amey Jadiye"
   location: "Pune, India"
