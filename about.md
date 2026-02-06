@@ -7,7 +7,7 @@ title: About Amey
 
 Hello and welcome! My name is **Amey Jadiye**, and I'm thrilled to have you here.
 
-I am a Director at [UBS](https://en.wikipedia.org/wiki/UBS){:target="_blank"} with a passion for Software Engineering and Electronics :heart: . With 15 years of experience in Technology Industry, I have honed my skills in Java, Cloud, Multithreading and Low Latency stuff and AI.
+I am a Director at [UBS](https://en.wikipedia.org/wiki/UBS){:target="_blank"} with a passion for Software Engineering and Electronics :heart: . With 15 years of experience in Technology Industry, I have honed my skills in Java, Cloud, Multithreading, Low Latency stuff and AI.
 
 
 What truly drives me is the love and attraction towards the machines. its fascinating to see how we write the code or create small electronics circuit or jot down few mechanical components and collectively they work to acomplish trivial to extramly complex task!
