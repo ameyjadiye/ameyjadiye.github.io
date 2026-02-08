@@ -99,3 +99,14 @@ sitemap: false
     display: none;
     visibility: hidden;
 }
+
+.video-container {
+  width: 100%; /* Or any specific width, e.g., 600px */
+  /* Add other styling for the container if needed */
+}
+
+.video-container video {
+  width: 100%;
+  height: auto; /* This maintains the original aspect ratio */
+  display: block; /* Helps with alignment and margin issues */
+}

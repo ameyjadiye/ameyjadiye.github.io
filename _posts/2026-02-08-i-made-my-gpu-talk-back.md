@@ -4,6 +4,7 @@ title: "I Made My GPU Talk Back: Playing with Qwen3-TTS"
 tags: hardware cpu gpu ai qwen
 ---
 
+<div class="video-container">
 <div style="text-align:center;">
 <video controls width="600">
     <source src="/images/video/call_with_mr_trump.mp4" type="video/mp4">
@@ -11,6 +12,7 @@ tags: hardware cpu gpu ai qwen
     <!-- Fallback text for older browsers -->
     Your browser does not support the video tag.
 </video>
+</div>
 </div>
 <br/>
 
