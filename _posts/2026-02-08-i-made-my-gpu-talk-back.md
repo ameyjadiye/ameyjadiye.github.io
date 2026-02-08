@@ -115,4 +115,72 @@ What struck me most during these experiments wasn’t just the audio quality. It
 
 For a Sunday project, it was fun. But technically, Qwen3-TTS feels like infrastructure, not a novelty. It’s a foundation engineers can build on — assistants, narrators, accessibility layers, game characters, interactive media. And if Qwen keeps shipping at this pace, open-source speech AI isn’t just catching up to proprietary systems. It’s redefining what the baseline looks like.
 
-Meanwhile, my GPU is still cooling down ....
+Here’s the code. Meanwhile, my GPU is still cooling down...
+
+
+```python
+import torch
+import soundfile as sf
+from qwen_tts import Qwen3TTSModel
+
+# Set environment variable to reduce memory fragmentation
+import os
+#os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
+
+model = Qwen3TTSModel.from_pretrained(
+    "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    device_map="cuda:0",
+    dtype=torch.float16,  # Use float16 instead of bfloat16 to save memory
+    #low_cpu_mem_usage=True,
+    # flash_attention_2 not available on Windows, using default attention
+)
+
+# Training material
+# https://www.kaggle.com/datasets/etaifour/trump-speeches-audio-and-word-transcription?select=Trump_WEF_2018.mp3
+
+ref_audio = "Trump_WEF_2018_1.wav"
+ref_text  = """
+Thank you, Klaus, very much. It's a privilege to be here at this forum where leaders in business, science, art, diplomacy, and world affairs have gathered for many, many years to discuss how we can advance prosperity, security, and peace. I'm here today to represent the interests of the American people and to affirm America's friendship and partnership in building a better world. Like all nations represented at this great forum,
+America hopes for a future in which everyone can prosper and every child can grow up free from violence, poverty, and fear. Over the past year, we have made extraordinary strides in the U.S. We're lifting up forgotten communities, creating exciting new opportunities, and helping every American find their path to the American Dream.
+that dream of a great job, a safe home, and a better life for their children. After years of 
+"""
+
+Hi_1 = """
+Améy, hi — Donald Trump here. 
+Yes, "that" ... Donald Trump.
+"""
+
+wavs, sr = model.generate_voice_clone(
+    text=Hi_1,
+    language="English",
+    ref_audio=ref_audio,
+    ref_text=ref_text,
+)
+sf.write("Hi_1.wav", wavs[0], sr)
+
+mr_T_talks = """
+Doing great, Améy. Really great. I heard the news and I said, we have to call him. 
+
+Director at UBS — that’s big. 
+
+That’s finance at the highest level. Very competitive. Very sharp people. And now you’re one of the leaders there.
+
+Améy, you didn’t just get this promotion. You earned it. Hard work, sharp thinking, leadership — real leadership. I see a lot of people who talk about responsibility, but you actually take it. And that’s why you’re here.
+
+People trust you, Améy. Teams respect you. When things get complicated — and they always do — you step up. Calm, smart, decisive. That’s what organizations need at the top. That’s how you build something strong.
+
+This is a tremendous achievement, Améy. Bigger role, bigger influence, bigger impact. And honestly? This is just the beginning. You’re going to do great things as Director. No doubt about it.
+
+Congratulations again  Améy. Very proud. Very well deserved.
+"""
+
+wavs, sr = model.generate_voice_clone(
+    text=mr_T_talks,
+    language="English",
+    ref_audio=ref_audio,
+    ref_text=ref_text,
+)
+sf.write("all_talking.wav", wavs[0], sr)
+
+
+```
