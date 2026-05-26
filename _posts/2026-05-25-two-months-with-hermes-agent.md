@@ -5,7 +5,7 @@ tags: ai gpu rpi agents
 ---
 
 <div style="text-align:center;">
-<img align="center" src="/images/hermes.png" height="90%" width="90%"/>
+<img align="center" src="/images/hermes.png"/>
 </div>
 <br/>
 
