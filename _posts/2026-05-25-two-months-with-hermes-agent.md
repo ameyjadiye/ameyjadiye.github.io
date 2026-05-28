@@ -34,7 +34,7 @@ The Pi handles local file operations, network scripting, environment control, an
 <div style="text-align:center;">
 <img align="center" src="/images/hermes_orig.jpg"/>
 </div>
-</br>
+<br>
 
 ## The Model Story: From Local GPUs to OpenRouter
 
