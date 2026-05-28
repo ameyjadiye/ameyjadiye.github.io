@@ -21,7 +21,7 @@ The pitch for Hermes was different. When I first read through its documentation,
 
 I carry an AI Champion role within the division, so I spend a lot of professional bandwidth thinking about where AI actually delivers leverage versus where it just creates impressive demos. Hermes looked like the former. I decided to give it a serious two-month trial on my home infrastructure.
 
-## Meet Blackboy and Redboy: The Hardware Foundation
+## Blackboy and Redboy: The Hardware Foundation
 
 Before I get into the software, I need to introduce the hardware, because the choice of host matters enormously to how Hermes actually behaves in production.
 
@@ -30,6 +30,11 @@ I have a small cluster of Raspberry Pi 5 units running in my home lab, each conn
 The Pi 5 is a low-power, always-on single-board computer. It draws somewhere between five and twelve watts under typical load. It sits on the shelf above my desk and runs continuously, twenty-four hours a day, seven days a week, without meaningfully affecting my electricity bill in a way I'd notice. Compare that to my primary workstation — which carries an RTX 5070 Ti, a Ryzen 9 9950X, and the full thermal footprint you'd expect from that combination — and you start to see the architectural logic immediately. Running an agent that needs to be available at 3am, that needs to fire scheduled tasks at 6am, that needs to respond to a WhatsApp message while I'm sitting in a meeting in Pune — that's not a workstation job. That's a Pi job.
 
 The Pi handles local file operations, network scripting, environment control, and all the persistent state management Hermes needs. It's the local nervous system. What it doesn't do — and shouldn't do — is run frontier-class language models. That ceiling is real, and hitting it was the first thing I had to work through.
+
+<div style="text-align:center;">
+<img align="center" src="/images/hermes_orig.jpg"/>
+</div>
+</br>
 
 ## The Model Story: From Local GPUs to OpenRouter
 
